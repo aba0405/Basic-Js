@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Understanding Event</title>
+</head>
+
+<body>
+ <h2 onmouseover="Using">Exploring Event</h2>
+ <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur, vitae odit, consequatur consequuntur ut illo ad sapiente minus soluta praesentium atque totam. Magni veritatis magnam nostrum perferendis adipisci cupiditate autem?</p>
+ <button id='First button'>Click me-0</button>
+ <button>Click me-1</button>
+ <button id='lastButton'>click me-2</button>
+ <script>
+    const lastButton = document.getElementById('lastButton').addEventListener('click', function(){
+     document.body.style.color = 'tomato'
+    })
+     // function handleClick(){
+     //  document.body.style.backgroundColor = 'tomato'
+     // }
+     // const firstBtn = document.getElementById('First button');
+     // firstBtn.addEventListener('click', handleClick)
+     // firstBtn.onclick = handleClick;
+ </script>
+</body>
+
+</html>
